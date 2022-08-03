@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    tools:context=".StoresActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Наши магазины"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+
+        android:text="Супермаркет \n ТК «Город» Лефортово \n г. Москва, ТЦ «Город Лефортово», ш. Энтузиастов, д. 12, корп. 2
+ \n Ежедневно с 10:00 до 22:00"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="ТЦ «МЕГА» Химки \nг. Химки, ТЦ «МЕГА», мкр. ИКЕА, к.2
+ \nЕжедневно с 10:00 до 23:00"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="ТЦ «Фестиваль» \nг. Москва, ТЦ «Фестиваль», Мичуринский пр-т, Олимпийская деревня, д. 3, корп. 1
+ Ежедневно с 10:00 до 22:00"/>
+
+</LinearLayout>
